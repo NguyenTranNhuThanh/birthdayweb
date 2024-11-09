@@ -12,7 +12,7 @@ function SpawnPresent()
   {
     let present:HTMLImageElement = document.createElement("img");
     present.style.position = "fixed";
-    present.src = "/present.png";
+    present.src = "/birthdayweb/present.png";
     present.style.left = Math.random() * 120 + "%";
     present.animate([{top: "-50%"}, {top: "100%", rotate: "360deg"}], {iterations: Infinity, duration: 5000});
     text.insertAdjacentElement("beforebegin", present);
